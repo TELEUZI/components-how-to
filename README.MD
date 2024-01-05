@@ -15,7 +15,7 @@ Contents:
 /examples: Real-world examples showcasing the implementation of components in different scenarios.
 
 How to Use:
-Clone the repository: git clone <https://github.com/your-username/your-repo.git>
+Clone the repository: git clone <https://github.com/TELEUZI/components-how-to>
 
 Explore the /src directory for the source code examples.
 
