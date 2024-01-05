@@ -12,15 +12,17 @@ function createElement(options) {
 	const { tag = 'div', text = '', parent, classes = [] } = options
 
 	const element = document.createElement(tag)
-	element.textContent = text // Adding classes if provided
+	element.textContent = text
 
+	// Adding classes if provided
 	if (classes.length > 0) {
 		element.classList.add(...classes)
-	} // Adding the element to the parent element if necessary
+	}
 
+	// Adding the element to the parent element if necessary
 	if (parent != null) {
 		parent.appendChild(element)
-	} // Returning the created element for further manipulations
+	}
 
-	return element
+	return element // Returning the created element for further manipulations
 }
