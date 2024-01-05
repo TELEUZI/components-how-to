@@ -1,0 +1,7 @@
+{
+	"name": "components-how-to",
+	"version": "1.0.0",
+	"description": "This repository contains code examples and resources related to the article titled \"Mastering Components: Creating Dynamic HTML with JavaScript.\" The article explores modern web development practices for building components and dynamically generating HTML content using JavaScript.",
+	"author": "TELEUZI",
+	"license": "MIT"
+}
