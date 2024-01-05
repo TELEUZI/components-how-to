@@ -4,13 +4,13 @@
  */
 class Component {
 	/**
-	 * @private
+	 *
 	 * @type {Array<Component>} - An array to store child components.
 	 */
 	#children = []
 
 	/**
-	 * @private
+	 *
 	 * @type {HTMLElement} - The HTML node associated with the component.
 	 */
 	#node = null
@@ -19,15 +19,15 @@ class Component {
 	 * Creates a new Component.
 	 * @constructor
 	 * @param {Object} options - The options for creating the component.
-	 * @param {string} options.tag - HTML element tag (default is 'div').
-	 * @param {string} options.className - CSS class name for the element.
-	 * @param {string} options.content - Text content of the element.
+	 * @param {string=} options.tag - HTML element tag (default is 'div').
+	 * @param {string=} options.className - CSS class name for the element.
+	 * @param {string=} options.text - Text content of the element.
 	 * @param {...Component} children - Child components to be appended.
 	 */
-	constructor({ tag, className, content }, ...children) {
-		const node = document.createElement(tag ?? 'div')
-		node.className = className ?? ''
-		node.textContent = content ?? ''
+	constructor({ tag = 'div', className = '', text = '' }, ...children) {
+		const node = document.createElement(tag)
+		node.className = className
+		node.textContent = text
 		this.#node = node
 
 		if (children) {
