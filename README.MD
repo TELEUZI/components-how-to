@@ -31,4 +31,6 @@ Contributions are welcome! If you find issues or have suggestions, please open a
 
 ## Article Link
 
+-EN: <https://gist.github.com/TELEUZI/410d19772481d98b06e0b41ebf89fff1>
+
 - RU: <https://gist.github.com/TELEUZI/0fadffb59a84c07bfdf97e0353d3281c>
